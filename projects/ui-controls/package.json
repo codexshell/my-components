@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^16.1.0",
-    "@angular/core": "^16.1.0"
+    "@angular/core": "^16.1.0",
+    "@angular/cdk": "^16.1.7",
+    "bulma": "^0.9.4"
   },
   "dependencies": {
     "tslib": "^2.3.0"
