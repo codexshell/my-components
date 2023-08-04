@@ -18,7 +18,7 @@
     "@angular-devkit/core" "16.1.7"
     rxjs "7.8.1"
 
-"@angular-devkit/build-angular@^16.1.7":
+"@angular-devkit/build-angular@^16.0.0", "@angular-devkit/build-angular@^16.1.7":
   version "16.1.7"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-16.1.7.tgz#16ead223f63f60258ace78d55e1669b55a96c960"
   integrity sha512-zUkPH3QDpA//hhMjMm9pKcbhO2gZjy4EkWrPglvR6G6a0myZc6/rEYK3W8gQWP1jiYiha/PiGnxTb+XeN/74tQ==
@@ -192,6 +192,13 @@
   version "16.1.8"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-16.1.8.tgz#e884016cd3355c44a28e0d0bcc3c716a031f005e"
   integrity sha512-XtOpY9HA85hPGrPwe1rgE8NJ3bFWbuJFx4SUlzB66k9B5jo8bD2Dxl/0id55RFS5gmvCe/Qhh0zoGyMpkWjMHA==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/elements@^16.1.8":
+  version "16.1.8"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-16.1.8.tgz#b271005f0f31fc598c8b1d0835e94c6205516132"
+  integrity sha512-178OUozXzFsEt/ZM/DoXcP8SylFoHlrGyxlktr38vtYeEezHxQ3+0IwVr+8Sbicwp3EJXO2fOPVnkuy54F7iSA==
   dependencies:
     tslib "^2.3.0"
 
@@ -1537,7 +1544,7 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@schematics/angular@16.1.7":
+"@schematics/angular@16.1.7", "@schematics/angular@^16.0.0":
   version "16.1.7"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-16.1.7.tgz#2dd68b2c0e951fc0e4618b63d3801bfa0c15d22f"
   integrity sha512-ynMh1o24ImTyHDsrwWzMwxIb5VUgk22ZD3SgcQ8I9ZSSPiFyCzNrbwz20+WqUfVtT0nsI+LWw9UaGPgwCLZnBQ==
@@ -4522,6 +4529,15 @@ ng-packagr@^16.0.0:
   optionalDependencies:
     esbuild "^0.17.0"
 
+ngx-build-plus@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-build-plus/-/ngx-build-plus-16.0.0.tgz#49b240c7504931233603fd0813eaea7cf886894b"
+  integrity sha512-AXqBJoQGyptbHTK09yfuxS2Gm2+YnVCBnPWyORq79wbC2gdbkYLR34eLA5wi8HZbqWNXdaYdGc75MFAZmkho4Q==
+  dependencies:
+    "@angular-devkit/build-angular" "^16.0.0"
+    "@schematics/angular" "^16.0.0"
+    webpack-merge "^5.0.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"
@@ -6152,7 +6168,7 @@ webpack-dev-server@4.15.0:
     webpack-dev-middleware "^5.3.1"
     ws "^8.13.0"
 
-webpack-merge@5.9.0:
+webpack-merge@5.9.0, webpack-merge@^5.0.0:
   version "5.9.0"
   resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-5.9.0.tgz#dc160a1c4cf512ceca515cc231669e9ddb133826"
   integrity sha512-6NbRQw4+Sy50vYNTw7EyOn41OZItPiXB8GNv3INSoe3PSFaHJEz3SHTrYVaRm2LilNGnFUzh0FAwqPEmU/CwDg==
